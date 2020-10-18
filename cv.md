@@ -1,9 +1,9 @@
 ## CV - Jonathan Gropp
 
 ### Education
-- 2017-2022, | Weizmann Institute of Science, **PhD** (Chemical Sciences)
-- 2015-2016, | Weizmann Institute of Science, **Msc** (Life Sciences)
-- 2011-2014, | Tel-Hai College, **BSc** (Biotechnology), *Summa Cum Laude*
+- 2017-2022, Weizmann Institute of Science, **PhD** (Chemical Sciences)
+- 2015-2016, Weizmann Institute of Science, **Msc** (Life Sciences)
+- 2011-2014, Tel-Hai College, **BSc** (Biotechnology), *Summa Cum Laude*
 
 ### Publications
 - **Gropp J.**, Jin Q., Halevy I., A bioisotopic model of micrbial methane production, *Manuscript in preparation*.
