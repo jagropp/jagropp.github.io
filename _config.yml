@@ -3,4 +3,5 @@ permalink     : /:categories/:year/:month/:title/
 title         : My personal website
 description   : Not available yet
 layout        : sidebar
-
+include:
+          - cv.md
