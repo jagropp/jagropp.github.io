@@ -1,9 +1,7 @@
-theme         : jekyll-theme-cayman
+theme         : jekyll-theme-minimal
 permalink     : /:categories/:year/:month/:title/
 title         : Jonathan Gropp
 description   : PhD student in Weizmann Institute, Earth and Planetary Sciences
 layout        : sidebar
 include:
           - cv.md
-
-theme: jekyll-theme-minimal
