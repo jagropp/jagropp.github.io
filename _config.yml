@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 permalink: /:categories/:year/:month/:title/
 title: My personal website
 description: Not available yet
+layout: sidebar
