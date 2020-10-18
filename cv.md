@@ -8,7 +8,7 @@
 ## Publications
 **Gropp J.**, Jin Q., Halevy I., A bioisotopic model of micrbial methane production', _In preparation_.  
 
-Wegener G.\*, **Gropp J.**\*, Taubner H., Halevy I., Elvert M., Reversibility of intracellular reactions explains opposing isotopic effects in the anaerobic oxidation of methane, *Submitted manuscript. \* Equal contribution.  
+Wegener G.\*, **Gropp J.**\*, Taubner H., Halevy I., Elvert M., Reversibility of intracellular reactions explains opposing isotopic effects in the anaerobic oxidation of methane, *Submitted manuscript*. \*Equal contribution.  
 
 **Gropp, J.**, Iron MA., Halevy I., [Theoretical Estimates of Equilibrium Carbon and Hydrogen Isotope Effects in Microbial Methane Production and Anaerobic Oxidation of Methane](https://chemrxiv.org/articles/preprint/Theoretical_Estimates_of_Equilibrium_Carbon_and_Hydrogen_Isotope_Effects_in_Microbial_Methane_Production_and_Anaerobic_Oxidation_of_Methane/12906035), *ChemRxiv*, 2020.  
 
