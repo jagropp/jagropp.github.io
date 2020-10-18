@@ -6,7 +6,7 @@
 2011-2014, Tel-Hai College, BSc (Biotechnology), *Summa Cum Laude*  
 
 ## Publications
-**Gropp J.**, Jin Q., Halevy I., A bioisotopic model of micrbial methane production', _In preparation_.  
+**Gropp J.**, Jin Q., Halevy I., A bioisotopic model of micrbial methane production, *In preparation*.  
 
 Wegener G.\*, **Gropp J.**\*, Taubner H., Halevy I., Elvert M., Reversibility of intracellular reactions explains opposing isotopic effects in the anaerobic oxidation of methane, *Submitted manuscript*. \*Equal contribution.  
 
