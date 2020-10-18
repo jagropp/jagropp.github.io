@@ -1,7 +1,7 @@
 theme         : jekyll-theme-cayman
 permalink     : /:categories/:year/:month/:title/
-title         : My personal website
-description   : Not available yet
+title         : Jonathan Gropp
+description   : PhD student in Weizmann Institute, Earth and Planetary Sciences
 layout        : sidebar
 include:
           - cv.md
