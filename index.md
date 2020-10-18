@@ -33,4 +33,4 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jagropp/jagropp.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 # Links
-My [CV](https://jagropp.github.io/cv.md)
+My [CV](https://jagropp.github.io//categories/year/month/title/cv.md)
