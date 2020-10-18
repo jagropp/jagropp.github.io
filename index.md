@@ -34,4 +34,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 # Links
 1. My [CV](https://jagropp.github.io/categories/year/month/title/cv.md)
-2. My [CV](https://jagropp.github.io/cv.md)
+2. My [CV](cv.md)
