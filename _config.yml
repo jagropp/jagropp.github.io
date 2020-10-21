@@ -8,3 +8,4 @@ link_CV           : CV
 
 include:
           - cv.md
+          - publications.md
