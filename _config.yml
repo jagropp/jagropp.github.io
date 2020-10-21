@@ -3,6 +3,7 @@ permalink     : /:categories/:year/:month/:title/
 title         : Jonathan Gropp
 description   : PhD student in Weizmann Institute, Earth and Planetary Sciences
 layout        : sidebar
+link_CV       : CV
 
 include:
           - cv.md
