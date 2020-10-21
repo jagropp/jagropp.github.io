@@ -3,4 +3,4 @@ I am a PhD student exploring methane biogeochemistry. In my research I apply the
 
 Check out my [CV](cv.md) to learn more...
 
-![JG](/assets/images/profile_pic2.png)
+![JG](/assets/images/profile_pic2.jpg)
