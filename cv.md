@@ -1,4 +1,4 @@
-## CV - Jonathan Gropp
+## Curriculum vitae
 
 ### Education
 - 2017-2022, Weizmann Institute of Science, **PhD** (Chemical Sciences)
