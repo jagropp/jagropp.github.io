@@ -3,4 +3,5 @@ I am a PhD student in the Weizmann Institute of Science exploring methane biogeo
 
 Check out my [CV](cv.md) and list of [publications](publications.md) to learn more, or [contact me](mailto:jagropp@gmail.com).
 
-![JG](/assets/images/profile_pic2.jpg)
+<!-- ![JG](/assets/images/profile_pic2.jpg) -->
+![JG](/assets/images/profile3.jpg)
