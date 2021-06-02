@@ -20,6 +20,7 @@
 - Seminar in the Kinneret Limnological Laboratory, Israel Oceanographic and Limnology Research (2019)
 
 #### Other talks
+- Israeli Geological Society Annual Meeting, Yeruham, Israel (2021)
 - ILASOL Conference, Israel - online talk (2021)
 - Geobiology Gordon Research Seminar, Glaveston, TX, USA – presentation and poster (2020)
 - Goldschmidt Geochemistry Conference, Barcelona, Spain – presentation (2019)
