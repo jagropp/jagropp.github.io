@@ -21,13 +21,16 @@
 
 #### Other talks
 - Israeli Geological Society Annual Meeting, Yeruham, Israel (2021)
-- ILASOL Conference, Israel - online talk (2021)
-- Geobiology Gordon Research Seminar, Glaveston, TX, USA – presentation and poster (2020)
-- Goldschmidt Geochemistry Conference, Barcelona, Spain – presentation (2019)
-- The 14<sup>th</sup> Gas In Marine Sediments (GIMS) Conference, Haifa, Israel – presentation (2018)
-- Annual meeting of the Israeli Society for Microbiology, Beer-Sheva, Israel – poster (2018)
-- The 14<sup>th</sup> Israeli Association for Aquatic Sciences (IAAS) Meeting, Haifa, Israel – presentation (2017) 
-- Goldschmidt Geochemistry Conference, Paris, France – presentation (2017)
-- Federation of all the Israel Societies for Experimental Biology (FISEB), Eilat, Israel – poster (2017)
-- Earth and Planetary Sciences Student Conference (EPScon), Rehovot, Israel – poster (2017)
+- ILASOL Conference, Israel (Online, 2021)
+- Geobiology Gordon Research Seminar, Glaveston, TX, USA (2020)
+- Goldschmidt Geochemistry Conference, Barcelona, Spain (2019)
+- The 14<sup>th</sup> Gas In Marine Sediments (GIMS) Conference, Haifa, Israel (2018)
+- The 14<sup>th</sup> Israeli Association for Aquatic Sciences (IAAS) Meeting, Haifa, Israel (2017) 
+- Goldschmidt Geochemistry Conference, Paris, France (2017)
+
+#### Poster
+- Geobiology Gordon Research Seminar, Glaveston, TX, USA (2020)
+- Israeli Society for Microbiology Annual Meeting, Beer-Sheva, Israel (2018)
+- Federation of all the Israel Societies for Experimental Biology (FISEB), Eilat, Israel (2017)
+- Earth and Planetary Sciences Student Conference (EPScon), Rehovot, Israel (2017)
 
