@@ -3,7 +3,7 @@ I am a PhD student in the Weizmann Institute of Science exploring methane biogeo
 
 In August 2022 I will join the University of California, Berkeley as a postdoctoral researcher for a collaborative project with [Dipti Nayak](https://www.dnayaklab.com){:target="_blank"} (Department of Molecular and Cell Biology) and Daniel Stolper (Department of Earth and Planetary Science).
 
-Check out my [CV](https://drive.google.com/file/d/1VqAAlWAgWWP5QnWcwNNUIZkUepjDsUyx/view?usp=sharing) and list of [publications](publications.md) to learn more, [Linkedin profile](https://www.linkedin.com/in/jonathan-gropp-948a9791/){:target="_blank"}, or [contact me](mailto:jagropp@gmail.com).
+Check out my [CV](https://drive.google.com/file/d/1VqAAlWAgWWP5QnWcwNNUIZkUepjDsUyx/view?usp=sharing), list of [publications](publications.md), [Google Scholar](https://scholar.google.com/citations?user=y664qEAAAAAJ&hl=iw&oi=ao), [Linkedin profile](https://www.linkedin.com/in/jonathan-gropp-948a9791/){:target="_blank"}, or contact me at jagropp at gmail.com.
 
 <!-- ![JG](/assets/images/profile_pic2.jpg) -->
 <!-- ![JG](/assets/images/profile3.jpg) -->
