@@ -3,6 +3,7 @@ permalink         : /:categories/:year/:month/:title/
 title             : Jonathan Gropp
 description       : Biogeochemist
 layout            : sidebar
+link_research     : Research
 link_publications : Publications
 link_CV           : CV
 
