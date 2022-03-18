@@ -1,7 +1,7 @@
 theme             : jekyll-theme-minimal
 permalink         : /:categories/:year/:month/:title/
 title             : Jonathan Gropp
-description       : Biogeochemist
+description       : biology / geochemistry / methane / stable isotopes / numerical modeling
 layout            : sidebar
 link_research     : Research
 link_publications : Publications
