@@ -1,6 +1,6 @@
 ### Publications
 \* Equal contribution, &#8224; Corresponding author.
-- **Gropp J.**&#8224;, Jin Q., Halevy I., Controls on the isotopic composition of microbial methane, *Science Advances*, In press. Preprint in bioR&#967;iv, DOI: [https://doi.org/10.1101/2021.09.14.460204](https://www.biorxiv.org/content/10.1101/2021.09.14.460204v2?versioned=true){:target="_blank"}
+- **Gropp J.**&#8224;, Jin Q., Halevy I., Controls on the isotopic composition of microbial methane, **8**/14, *Science Advances*. DOI: [10.1126/sciadv.abm5713](https://www.science.org/doi/10.1126/sciadv.abm5713){:target="_blank"}
 
 - Wegener G.\*, **Gropp J.**\*&#8224;, Taubner H., Halevy I., Elvert M., Sulfate-dependent reversibility of intracellular reactions explains the opposing isotope effects in the anaerobic oxidation of methane, **7**/19, *Science Advances*. DOI: [10.1126/sciadv.abe4939](http://doi.org/10.1126/sciadv.abe4939){:target="_blank"} [[Press release from MPI](https://www.mpi-bremen.de/en/Strange-isotopes-Scientists-from-Germany-and-Israel-explain-a-methane-isotope-paradox-of-the-seafloor.html){:target="_blank"}] [[GitHub repository](https://github.com/jagropp/AOM.bioiso.model){:target="_blank"}]
 
