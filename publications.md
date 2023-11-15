@@ -1,6 +1,6 @@
 ### Publications
 
-&#8224; Corresponding author, \* Equal contribution. *Last update: Apr. 6<sup>th</sup>, 2022.*
+&#8224; Corresponding author, \* Equal contribution.
 > Please contact me for inquiries about papers that are behind a paywall (jagropp_at_gmail_dot_com)
 
 - **Gropp J.**&#8224;, Jin Q., Halevy I., Controls on the isotopic composition of microbial methane, **8**/14, ***Science Advances***. DOI: [10.1126/sciadv.abm5713](https://www.science.org/doi/10.1126/sciadv.abm5713){:target="_blank"}
