@@ -4,4 +4,4 @@ My research here in Berkeley is supported by the [EMBO Postdoctoral Fellowship](
 
 In my PhD I worked with [Itay Halevy](https://www.weizmann.ac.il/eserpages/Halevy/){:target="_blank"} at the Weizmann Institute of Science, where I developed theoretical tools to study methane biogeochemistry which elucidated the relations between microbes that produce and consume methane and the isotopic signatures that they leave behind.
 
-Check out my [research interests](research.md), list of [publications](publications.md), [Google Scholar page](https://scholar.google.com/citations?user=y664qEAAAAAJ&hl=iw&oi=ao){:target="_blank"}, [Linkedin profile](https://www.linkedin.com/in/jonathan-gropp-948a9791/){:target="_blank"}, or contact me at ja dot gropp at gmail.com.
+Check out my [research interests](research.md), list of [publications](publications.md), [Google Scholar page](https://scholar.google.com/citations?user=y664qEAAAAAJ&hl=en){:target="_blank"}, [Linkedin profile](https://www.linkedin.com/in/jonathan-gropp-948a9791/){:target="_blank"}, or contact me at ja dot gropp at gmail.com.
