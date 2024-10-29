@@ -3,7 +3,7 @@
 \* Equal contribution.
 > Please contact me for inquiries about papers that are behind a paywall (jagropp_at_gmail_dot_com)
 
-- **Gropp J.**, Lloyd M., Stein R., Bill M., Nayak DD., Stolper DA., CRISPR-enabled control of gene expression sets the isotopic composition of microbial methane, ***Submitted***, 2024
+- **Gropp J.**, Lloyd M., Stein R., Bill M., Nayak DD., Stolper DA., CRISPR-enabled control of gene expression sets the isotopic composition of microbial methane, ***Submitted*** (available in BioR&#967;iv), 2024, DOI: [10.1101/2024.10.28.620722](https://doi.org/10.1101/2024.10.28.620722){:target="_blank"}
 
 - Wang X., Chen B., Nai H., Liu CQ., Dong G, Zhang N., Li SL., **Gropp J.**, McIntosh J., Ellam RM., Eiler JM., Xu S., Dual clumped isotopes identify thermogenic and secondary microbial methane in high thermal-maturity coal beds, **647**, ***Earth and Planetary Science Letters***, 2024, DOI: [10.1016/j.epsl.2024.119023](https://doi.org/10.1016/j.epsl.2024.119023){:target="_blank"}
 
