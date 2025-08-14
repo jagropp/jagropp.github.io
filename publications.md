@@ -7,7 +7,7 @@
 
 - Batther HK., Templeton AS., Hoehler T., Howells A., Bill M., **Gropp J.**, Kopf S., The Stable Carbon Isotope Fractionation of Methanogenesis Products at Complete Carbon Consumption, ***Geochemical Perspective Letters*** (Under review), 2025
   
-- Wang X., Han J., Liu J., Csernica T., Zhang N., Ding H., **Gropp J.**, McIntosh J., Li SL., Xu S., Ellam RM., Clumped Isotopes Tracing Methane Cycle and Budget: A review, ***Earth-Science Reviews*** (Under review)
+- Wang X., Han J., Liu J., Csernica T., Zhang N., Ding H., **Gropp J.**, McIntosh J., Li SL., Xu S., Ellam RM., Clumped Isotopes Tracing Methane Cycle and Budget: A review, ***Earth-Science Reviews*** (Under review), 2025
 
 - Wang X., Chen B., Nai H., Liu CQ., Dong G, Zhang N., Li SL., **Gropp J.**, McIntosh J., Ellam RM., Eiler JM., Xu S., Dual clumped isotopes identify thermogenic and secondary microbial methane in high thermal-maturity coal beds, **647**, ***Earth and Planetary Science Letters***, 2024, DOI: [10.1016/j.epsl.2024.119023](https://doi.org/10.1016/j.epsl.2024.119023){:target="_blank"}
 
