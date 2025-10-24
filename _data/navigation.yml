@@ -1,0 +1,12 @@
+# This defines the menu items for your sidebar
+main-sidebar:
+  - title: "Home"
+    url: /
+  - title: "About Jonathan"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "CV / Resume"
+    url: /cv/
