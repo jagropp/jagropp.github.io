@@ -2,7 +2,7 @@ theme             : jekyll-theme-minimal
 # remote_theme      : "mmistakes/minimal-mistakes"
 permalink         : /:categories/:year/:month/:title/
 title             : Jonathan Gropp
-description       : biology / geochemistry / methane / stable isotopes / numerical modeling
+description       : microbiology / geochemistry / methane / stable isotopes / numerical modeling
 layout            : sidebar
 link_research     : Research
 link_publications : Publications
