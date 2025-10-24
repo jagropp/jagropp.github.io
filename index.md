@@ -1,11 +1,3 @@
----
-layout: home                       # Use the 'home' layout
-author_profile: true               # (Optional) Displays your profile/bio in the sidebar
-sidebar: 
-  nav: "main-sidebar"             # This tells the page to use the list named 'main-sidebar'
-title: Jonathan Gropp
----
-
 ### About me
 I am a microbiologist, with an interest in understanding the nuts and bolts of microbes that emit greenhouse gases. In the early days of my PhD, I was introduced into the world of methanogens -- microbes that produce methane -- which kickstarted a journey that continues to this day. Methanogens have a key role in shaping Earth's climate throughout its history and are predicted to drive further global warming in the near and distant future as well. Having firm roots in both biology and Earth sciences I aim to deliver new insights on what makes methanogens tick, and how we can identify and learn about their activity across various scales.
 
