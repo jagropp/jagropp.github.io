@@ -6,6 +6,7 @@ description       : microbiology / geochemistry / methane / stable isotopes / nu
 layout            : sidebar
 link_research     : Research
 link_publications : Publications
+link_CV           : CV
 
 include:
           - publications.md
