@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayleigh Isotopic Fractionation</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #f0f2f5;
+            color: #212529;
+            padding: 28px 20px;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        h1 {
+            font-size: 1.7rem;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 6px;
+            letter-spacing: -0.3px;
+        }
+
+        .subtitle {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        .panels {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 22px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 880px) {
+            .panels { grid-template-columns: 1fr; }
+        }
+
+        .panel {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+            padding: 22px 24px 20px;
+        }
+
+        .panel-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 10px;
+        }
+
+        /* Equation box */
+        .eq-box {
+            font-size: 0.8rem;
+            color: #495057;
+            background: #f8f9fa;
+            border-left: 3px solid #74c0fc;
+            padding: 9px 13px;
+            border-radius: 0 6px 6px 0;
+            margin-bottom: 14px;
+            line-height: 1.75;
+            font-family: 'Cambria Math', 'Georgia', serif;
+        }
+
+        .eq-box .eq-label {
+            font-size: 0.72rem;
+            font-family: system-ui, sans-serif;
+            color: #868e96;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 3px;
+        }
+
+        .plot-area {
+            width: 100%;
+            height: 310px;
+        }
+
+        /* Controls */
+        .controls {
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+        }
+
+        .param-row {
+            display: grid;
+            grid-template-columns: 160px 1fr 70px;
+            align-items: center;
+            column-gap: 10px;
+        }
+
+        .param-label {
+            font-size: 0.84rem;
+            color: #495057;
+            line-height: 1.3;
+        }
+
+        .param-label .sym {
+            font-weight: 700;
+            color: #1a1a2e;
+            font-family: 'Cambria Math', Georgia, serif;
+            font-size: 0.93rem;
+        }
+
+
+        input[type="range"] {
+            width: 100%;
+            cursor: pointer;
+            accent-color: #339af0;
+            height: 4px;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 4px 6px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 0.82rem;
+            text-align: right;
+            color: #212529;
+            background: #fff;
+        }
+
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #74c0fc;
+            box-shadow: 0 0 0 2px rgba(116, 192, 252, 0.25);
+        }
+
+        .derived-row {
+            font-size: 0.79rem;
+            color: #6c757d;
+            text-align: right;
+            padding: 2px 0 0 0;
+            border-top: 1px solid #f1f3f5;
+            margin-top: 2px;
+        }
+
+        .derived-row span.val {
+            font-weight: 600;
+            color: #343a40;
+        }
+
+        .sep { color: #ced4da; margin: 0 6px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Rayleigh Isotopic Fractionation</h1>
+    <p class="subtitle">
+        x-axis: fraction consumed <em>f</em> (0 = fresh substrate, 1 = fully consumed) &nbsp;|&nbsp;
+        y-axis: δ (‰) relative to standard
+    </p>
+</header>
+
+<div class="panels">
+
+    <!-- ══════════════════════════════════════
+         PANEL 1 — Classical Rayleigh
+    ══════════════════════════════════════ -->
+    <section class="panel">
+        <div class="panel-title">Classical Rayleigh</div>
+
+        <div class="eq-box">
+            <div class="eq-label">Equation (exact form)</div>
+            δ̄<sub>p</sub> = [(1 + δ₀/1000) · (1−(1−f)<sup>α</sup>) / f − 1] · 1000
+        </div>
+
+        <div id="plot-classical" class="plot-area"></div>
+
+        <div class="controls">
+
+            <div class="param-row">
+                <span class="param-label">
+                    <span class="sym">δ₀</span> substrate (‰)
+                </span>
+                <input type="range" id="c-d0-s" min="-300" max="50" step="0.5" value="-41.6">
+                <input type="number"  id="c-d0-n" min="-300" max="50" step="0.5" value="-41.6">
+            </div>
+
+            <div class="param-row">
+                <span class="param-label">
+                    <span class="sym">α</span>
+                </span>
+                <input type="range" id="c-a-s" min="0.70" max="1.10" step="0.001" value="0.93">
+                <input type="number"  id="c-a-n" min="0.70" max="1.10" step="0.001" value="0.93">
+            </div>
+
+            <div class="derived-row">
+                ε = 1000(α−1) = <span class="val" id="c-eps">−70.0</span> ‰
+                <span class="sep">|</span>
+                1000·ln α = <span class="val" id="c-lna">−72.5</span> ‰
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         PANEL 2 — Branched Rayleigh
+    ══════════════════════════════════════ -->
+    <section class="panel">
+        <div class="panel-title">Branched Rayleigh</div>
+
+        <div class="eq-box">
+            <div class="eq-label">Equations (exact form)</div>
+            δ̄<sub>p1</sub> = [(1 + δ₀/1000) · (α₂α₁ / (nα₂+(1−n)α₃)) · (1−(1−f)<sup>α₁</sup>) / (α₁·f) − 1] · 1000<br>
+            δ̄<sub>p2</sub> = [(1 + δ₀/1000) · (α₃α₁ / (nα₂+(1−n)α₃)) · (1−(1−f)<sup>α₁</sup>) / (α₁·f) − 1] · 1000
+        </div>
+
+        <div id="plot-branched" class="plot-area"></div>
+
+        <div class="controls">
+
+            <div class="param-row">
+                <span class="param-label">
+                    <span class="sym">δ₀</span> substrate (‰)
+                </span>
+                <input type="range" id="b-d0-s" min="-300" max="50" step="0.5" value="-41.6">
+                <input type="number"  id="b-d0-n" min="-300" max="50" step="0.5" value="-41.6">
+            </div>
+
+            <div class="param-row">
+                <span class="param-label">
+                    <span class="sym">α<sub>1</sub></span>
+                </span>
+                <input type="range" id="b-a1-s" min="0.70" max="1.10" step="0.001" value="0.93">
+                <input type="number"  id="b-a1-n" min="0.70" max="1.10" step="0.001" value="0.93">
+            </div>
+
+            <div class="param-row">
+                <span class="param-label">
+                    <span class="sym">α<sub>2</sub></span>
+                </span>
+                <input type="range" id="b-a2-s" min="0.70" max="1.10" step="0.001" value="0.96">
+                <input type="number"  id="b-a2-n" min="0.70" max="1.10" step="0.001" value="0.96">
+            </div>
+
+            <div class="param-row">
+                <span class="param-label">
+                    <span class="sym">α<sub>3</sub></span>
+                </span>
+                <input type="range" id="b-a3-s" min="0.70" max="1.10" step="0.001" value="0.98">
+                <input type="number"  id="b-a3-n" min="0.70" max="1.10" step="0.001" value="0.98">
+            </div>
+
+            <div class="param-row">
+                <span class="param-label">
+                    <span class="sym">n</span> branching fraction
+                </span>
+                <input type="range" id="b-n-s" min="0" max="1" step="0.01" value="0.75">
+                <input type="number"  id="b-n-n" min="0" max="1" step="0.01" value="0.75">
+            </div>
+
+            <div class="derived-row">
+                α<sub>eff</sub> = α₂α₁/(nα₂+(1−n)α₃) = <span class="val" id="b-aeff">0.9295</span>
+                <span class="sep">|</span>
+                ε<sub>eff</sub> = <span class="val" id="b-eeff">−70.5</span> ‰
+            </div>
+
+        </div>
+    </section>
+
+</div><!-- .panels -->
+
+<script>
+// ─────────────────────────────────────────────
+//  Math
+// ─────────────────────────────────────────────
+
+const N = 400;
+
+function linspace(a, b, n) {
+    const arr = [];
+    for (let i = 0; i < n; i++) arr.push(a + i * (b - a) / (n - 1));
+    return arr;
+}
+
+// f  = fraction consumed  (0 → 1)
+// fr = fraction remaining (1 → 0) = 1 - f
+
+function classicalCurves(delta0, alpha) {
+    const f  = linspace(0.0005, 0.9995, N);
+    const c0 = 1 + delta0 / 1000;
+    const dp = [];
+
+    for (let i = 0; i < N; i++) {
+        const fi = f[i];
+        const fr = 1 - fi;
+        dp.push((c0 * (1 - Math.pow(fr, alpha)) / fi - 1) * 1000);
+    }
+    return { f, dp };
+}
+
+function branchedCurves(delta0, alpha1, alpha2, alpha3, n) {
+    const f   = linspace(0.0005, 0.9995, N);
+    const c0  = 1 + delta0 / 1000;
+    const denom    = n * alpha2 + (1 - n) * alpha3;
+    const prefact1 = (alpha2 * alpha1) / denom;   // branch 1 (α₂)
+    const prefact2 = (alpha3 * alpha1) / denom;   // branch 2 (α₃)
+    const dp = [], dp2 = [];
+
+    for (let i = 0; i < N; i++) {
+        const fi = f[i];
+        const fr = 1 - fi;
+        const common = c0 * (1 - Math.pow(fr, alpha1)) / (alpha1 * fi);
+        dp.push( (common * prefact1 - 1) * 1000);
+        dp2.push((common * prefact2 - 1) * 1000);
+    }
+    return { f, dp, dp2 };
+}
+
+// ─────────────────────────────────────────────
+//  Plotly helpers
+// ─────────────────────────────────────────────
+
+function makeLayout(delta0) {
+    return {
+        margin: { l: 58, r: 18, t: 14, b: 52 },
+        xaxis: {
+            title: { text: 'fraction consumed, f', font: { size: 12 } },
+            range: [0, 1],
+            gridcolor: '#e9ecef',
+            zeroline: false,
+            tickfont: { size: 11 }
+        },
+        yaxis: {
+            title: { text: 'δ (‰)', font: { size: 12 } },
+            gridcolor: '#e9ecef',
+            zeroline: true,
+            zerolinecolor: '#ced4da',
+            zerolinewidth: 1,
+            tickfont: { size: 11 }
+        },
+        legend: {
+            x: 0.03, y: 0.97,
+            bgcolor: 'rgba(255,255,255,0.85)',
+            bordercolor: '#dee2e6',
+            borderwidth: 1,
+            font: { size: 11 }
+        },
+        shapes: [{
+            type: 'line',
+            x0: 0, x1: 1, xref: 'paper',
+            y0: delta0, y1: delta0, yref: 'y',
+            line: { color: '#868e96', width: 1.5, dash: 'dot' }
+        }],
+        annotations: [{
+            x: 1, y: delta0, xref: 'paper', yref: 'y',
+            xanchor: 'right', yanchor: 'bottom',
+            text: 'δ₀', showarrow: false,
+            font: { size: 11, color: '#868e96' }
+        }],
+        hovermode: 'x unified',
+        plot_bgcolor: '#ffffff',
+        paper_bgcolor: '#ffffff',
+        font: { family: 'system-ui, sans-serif', size: 12 }
+    };
+}
+
+const config = { responsive: true, displayModeBar: false };
+
+// ─────────────────────────────────────────────
+//  Classical panel
+// ─────────────────────────────────────────────
+
+function getClassicalParams() {
+    return {
+        delta0: parseFloat(document.getElementById('c-d0-n').value),
+        alpha:  parseFloat(document.getElementById('c-a-n').value)
+    };
+}
+
+function buildClassicalTraces({ delta0, alpha }) {
+    const { f, dp } = classicalCurves(delta0, alpha);
+    return [
+        { x: f, y: dp, name: 'δ̄p', mode: 'lines',
+          line: { color: '#e03131', width: 2.5 },
+          hovertemplate: 'f=%{x:.3f}<br>δ̄p=%{y:.1f} ‰<extra></extra>' }
+    ];
+}
+
+function updateDerivedClassical(alpha) {
+    document.getElementById('c-eps').textContent = (1000 * (alpha - 1)).toFixed(1);
+    document.getElementById('c-lna').textContent = (1000 * Math.log(alpha)).toFixed(1);
+}
+
+function refreshClassical() {
+    const p = getClassicalParams();
+    Plotly.react('plot-classical', buildClassicalTraces(p), makeLayout(p.delta0), config);
+    updateDerivedClassical(p.alpha);
+}
+
+// ─────────────────────────────────────────────
+//  Branched panel
+// ─────────────────────────────────────────────
+
+function getBranchedParams() {
+    return {
+        delta0: parseFloat(document.getElementById('b-d0-n').value),
+        alpha1: parseFloat(document.getElementById('b-a1-n').value),
+        alpha2: parseFloat(document.getElementById('b-a2-n').value),
+        alpha3: parseFloat(document.getElementById('b-a3-n').value),
+        n:      parseFloat(document.getElementById('b-n-n').value)
+    };
+}
+
+function buildBranchedTraces({ delta0, alpha1, alpha2, alpha3, n }) {
+    const { f, dp, dp2 } = branchedCurves(delta0, alpha1, alpha2, alpha3, n);
+    return [
+        { x: f, y: dp,  name: 'δ̄p₁ (α₂)', mode: 'lines',
+          line: { color: '#e03131', width: 2.5 },
+          hovertemplate: 'f=%{x:.3f}<br>δ̄p₁=%{y:.1f} ‰<extra></extra>' },
+        { x: f, y: dp2, name: 'δ̄p₂ (α₃)', mode: 'lines',
+          line: { color: '#2f9e44', width: 2.5 },
+          hovertemplate: 'f=%{x:.3f}<br>δ̄p₂=%{y:.1f} ‰<extra></extra>' }
+    ];
+}
+
+function updateDerivedBranched({ alpha1, alpha2, alpha3, n }) {
+    const aeff = (alpha2 * alpha1) / (n * alpha2 + (1 - n) * alpha3);
+    document.getElementById('b-aeff').textContent = aeff.toFixed(4);
+    document.getElementById('b-eeff').textContent = (1000 * (aeff - 1)).toFixed(1);
+}
+
+function refreshBranched() {
+    const p = getBranchedParams();
+    Plotly.react('plot-branched', buildBranchedTraces(p), makeLayout(p.delta0), config);
+    updateDerivedBranched(p);
+}
+
+// ─────────────────────────────────────────────
+//  Slider ↔ number input sync
+// ─────────────────────────────────────────────
+
+function link(sliderId, numId, onchange) {
+    const s = document.getElementById(sliderId);
+    const n = document.getElementById(numId);
+    s.addEventListener('input', () => { n.value = s.value; onchange(); });
+    n.addEventListener('input', () => { s.value = n.value; onchange(); });
+}
+
+// Classical
+link('c-d0-s', 'c-d0-n', refreshClassical);
+link('c-a-s',  'c-a-n',  refreshClassical);
+
+// Branched
+link('b-d0-s', 'b-d0-n', refreshBranched);
+link('b-a1-s', 'b-a1-n', refreshBranched);
+link('b-a2-s', 'b-a2-n', refreshBranched);
+link('b-a3-s', 'b-a3-n', refreshBranched);
+link('b-n-s',  'b-n-n',  refreshBranched);
+
+// ─────────────────────────────────────────────
+//  Initial render
+// ─────────────────────────────────────────────
+
+(function init() {
+    const cp = getClassicalParams();
+    Plotly.newPlot('plot-classical', buildClassicalTraces(cp), makeLayout(cp.delta0), config);
+    updateDerivedClassical(cp.alpha);
+
+    const bp = getBranchedParams();
+    Plotly.newPlot('plot-branched', buildBranchedTraces(bp), makeLayout(bp.delta0), config);
+    updateDerivedBranched(bp);
+})();
+</script>
+
+</body>
+</html>
