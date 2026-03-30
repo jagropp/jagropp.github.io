@@ -162,6 +162,10 @@
 <header>
     <h1>Rayleigh Isotopic Fractionation</h1>
     <p class="subtitle">
+        Dynamic plots of Rayleigh Isotopic Fractionation. The classical Rayleigh fractionation applies for reactions with one substrate (s) and one product (p). 
+        The Branched Rayleigh applies for reaction netowrks where the substrate is converted to two products (p1 and p2). Here, the parameter 'n' defines the fluxes through the netword to p1.
+    </p>
+    <p class="subtitle">
         x-axis: fraction consumed <em>f</em> (0 = fresh substrate, 1 = fully consumed) &nbsp;|&nbsp;
         y-axis: δ (‰) relative to standard
     </p>
@@ -188,8 +192,8 @@
                 <span class="param-label">
                     <span class="sym">δ₀</span> substrate (‰)
                 </span>
-                <input type="range" id="c-d0-s" min="-300" max="50" step="0.5" value="-41.6">
-                <input type="number"  id="c-d0-n" min="-300" max="50" step="0.5" value="-41.6">
+                <input type="range" id="c-d0-s" min="-300" max="50" step="0.5" value="0">
+                <input type="number"  id="c-d0-n" min="-300" max="50" step="0.5" value="0">
             </div>
 
             <div class="param-row">
@@ -229,8 +233,8 @@
                 <span class="param-label">
                     <span class="sym">δ₀</span> substrate (‰)
                 </span>
-                <input type="range" id="b-d0-s" min="-300" max="50" step="0.5" value="-41.6">
-                <input type="number"  id="b-d0-n" min="-300" max="50" step="0.5" value="-41.6">
+                <input type="range" id="b-d0-s" min="-300" max="50" step="0.5" value="0">
+                <input type="number"  id="b-d0-n" min="-300" max="50" step="0.5" value="0">
             </div>
 
             <div class="param-row">
