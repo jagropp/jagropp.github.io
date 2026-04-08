@@ -6,7 +6,6 @@ description       : Microbiology / Metabolism /Geochemistry / Methane / Stable I
 layout            : sidebar
 link_research     : Research
 link_publications : Publications
-link_rayleigh     : Rayleigh Fractionation
 
 include:
           - publications.md
