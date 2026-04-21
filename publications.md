@@ -5,7 +5,7 @@
 
 - **Gropp J.**, Stolper DA.\*, Nayak DD.\*, Methanol-specific methyltransferase isozymes have large carbon kinetic isotope effects that impact methane isotopic signatures, ***Under review***, 2026, BioR&#967;iv DOI: [10.64898/2026.04.02.716163](https://doi.org/10.64898/2026.04.02.716163){:target="_blank"}
 
-- **Gropp J.**, Lloyd M., Stein R., Bill M., Nayak DD.\*, Stolper DA.\*, Modulation of methylcoenzyme-M reductase expression alters the isotopic composition of microbial methane, ***Science***, 2025, DOI: [10.1126/science.adu2098](https://doi.org/10.1126/science.adu2098){:target="_blank"}
+- **Gropp J.**, Lloyd M., Stein R., Bill M., Nayak DD.\*, Stolper DA.\*, Modulation of methylcoenzyme-M reductase expression alters the isotopic composition of microbial methane, ***Science***, 2025, DOI: [10.1126/science.adu2098](https://doi.org/10.1126/science.adu2098){:target="_blank"} [[Press release from UC Berkeley](https://vcresearch.berkeley.edu/news/scientists-hack-microbes-identify-environmental-sources-methane){:target="_blank"}]
 
 - Batther HK., Templeton AS., Hoehler T., Howells A., Bill M., **Gropp J.**, Kopf S., The Stable Carbon Isotope Fractionation of Methanogenesis Products at Complete Carbon Consumption, ***Geochemical Perspective Letters***, 2025, DOI: [10.7185/geochemlet.2543](https://doi.org/10.7185/geochemlet.2543){:target="_blank"}
   
