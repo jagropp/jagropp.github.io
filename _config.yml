@@ -6,10 +6,12 @@ description       : Microbiology / Metabolism / Geochemistry / Methane / Stable 
 layout            : sidebar
 link_research     : Research
 link_publications : Publications
+link_widgets      : Widgets
 
 include:
           - publications.md
           - _images
+          - widgets.md
 
 # plugins:
 #   - jekyll-feed
