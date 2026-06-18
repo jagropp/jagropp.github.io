@@ -1,7 +1,7 @@
 ## Research
 
 #### Using a genetically-tractable methanogen to study the isotopic effects of methylotrophic and acetoclastic methanogenesis
-Methanogenic growth on acetate and methylated substrates (e.g., methanol, trimethylamine, methylsulfides) generates ~2/3 of the methane emitted annually. We recently found that tweaking the abundance of the key enzyme of methanogenesis, methyl--coenzyme M reductase (MCR) alters the isotopic composition of the methane. We have shown that this chage arises due to enzyme-driven reversibility, with implications to interpret methane isotopic signatures in natural environments ([Paper in *Science*](https://www.science.org/doi/10.1126/science.adu2098){:target="_blank"}, and an [article from the UC Berkeley News website](https://news.berkeley.edu/2025/08/14/scientists-hack-microbes-to-identify-environmental-sources-of-methane/)).
+Methanogenic growth on acetate and methylated substrates (e.g., methanol, trimethylamine, dimethylsulfide) generates ~2/3 of the methane emitted annually. We recently found that tweaking the abundance of the key enzyme of methanogenesis, methyl--coenzyme M reductase (MCR) alters the isotopic composition of the methane. We have shown that this chage arises due to enzyme-driven reversibility, with implications to interpret methane isotopic signatures in natural environments ([Paper in *Science*](https://www.science.org/doi/10.1126/science.adu2098){:target="_blank"}, and an [article from the UC Berkeley News website](https://news.berkeley.edu/2025/08/14/scientists-hack-microbes-to-identify-environmental-sources-of-methane/)).
 
 ![Methane isotopic composition changes with MCR abundance](_images/s_2025.png)
 
