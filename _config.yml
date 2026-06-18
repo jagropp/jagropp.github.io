@@ -9,6 +9,7 @@ link_publications : Publications
 
 include:
           - publications.md
+          - _images
 
 # plugins:
 #   - jekyll-feed
