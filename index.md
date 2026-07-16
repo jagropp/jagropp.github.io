@@ -1,6 +1,6 @@
 > #### Update (July 2026)
 >
-> Exciting news! 🚀 This fall, I’ll be starting my own lab in the Department of Plant and Environmental Sciences at the Weizmann Institute of Science.
+> Exciting news! 🚀 This fall, I’ll be starting my own lab in the [Department of Plant and Environmental Sciences](https://www.weizmann.ac.il/plants/){:target="_blank"} at the [Weizmann Institute of Science](https://www.weizmann.ac.il/pages/){:target="_blank"}.
 Building on my postdoctoral research at UC Berkeley, our new group will dive deep into the world of methanogens, exploring the biology, metabolism, and isotopic signatures of microbes that drive greenhouse gas emissions.
 >
 > **I am currently looking for passionate graduate students and postdocs to join the lab! If you are interested in working at the intersection of microbiology and environmental sciences using genetics, modeling, and stable isotope mass spectrometry, I’d be happy to chat.**
