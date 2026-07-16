@@ -1,9 +1,15 @@
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+<!-- Use the following line to add an Altmetric badge
+<span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.64898/2026.04.02.716163"></span>
+-->
+
 ### Publications
 
 \* Equal contribution.
 > Please contact me for inquiries about papers that are behind a paywall (jagropp_at_gmail_dot_com)
 
-1. **Gropp J.**, Bill M., Stolper DA.\*, Nayak DD.\*, Methanol-specific methyltransferase isozymes have large carbon kinetic isotope effects that impact methane isotopic signatures, Provisionally accepted for publication in ***Applied and Environmental Microbiology***, 2026, BioR&#967;iv DOI: [10.64898/2026.04.02.716163](https://doi.org/10.64898/2026.04.02.716163){:target="_blank"}
+1. **Gropp J.**, Bill M., Stolper DA.\*, Nayak DD.\*, Methanol-specific methyltransferase isozymes have large carbon kinetic isotope effects that impact methane isotopic signatures, Provisionally accepted for publication in ***Applied and Environmental Microbiology***, 2026, BioR&#967;iv DOI: [10.64898/2026.04.02.716163](https://doi.org/10.64898/2026.04.02.716163){:target="_blank"} 
 
 1. **Gropp J.**, Lloyd M., Stein R., Bill M., Nayak DD.\*, Stolper DA.\*, Modulation of methylcoenzyme-M reductase expression alters the isotopic composition of microbial methane, ***Science***, 2025, DOI: [10.1126/science.adu2098](https://doi.org/10.1126/science.adu2098){:target="_blank"} [[Press release from UC Berkeley](https://vcresearch.berkeley.edu/news/scientists-hack-microbes-identify-environmental-sources-methane){:target="_blank"}]
 
@@ -17,6 +23,7 @@
 
 1. Wegener G.\*, **Gropp J.**\*;, Taubner H., Halevy I., Elvert M., Sulfate-dependent reversibility of intracellular reactions explains the opposing isotope effects in the anaerobic oxidation of methane, **7**/19, ***Science Advances***, 2021, DOI: [10.1126/sciadv.abe4939](http://doi.org/10.1126/sciadv.abe4939){:target="_blank"} [[Press release from MPI](https://www.mpi-bremen.de/en/Strange-isotopes-Scientists-from-Germany-and-Israel-explain-a-methane-isotope-paradox-of-the-seafloor.html){:target="_blank"}] [[GitHub repository](https://github.com/jagropp/AOM.bioiso.model){:target="_blank"}]
 
-1. **Gropp, J.**, Iron MA., Halevy I., Theoretical Estimates of Equilibrium Carbon and Hydrogen Isotope Effects in Microbial Methane Production and Anaerobic Oxidation of Methane, **295**, ***Geochimica et Cosmochimica Acta***, 2021, DOI: [10.1016/j.gca.2020.10.018](https://doi.org/10.1016/j.gca.2020.10.018){:target="_blank"} [[GitHub repository](https://github.com/jagropp/EFFs.GCA.2020){:target="_blank"}]
+1. **Gropp, J.**, Iron MA., Halevy I., Theoretical Estimates of Equilibrium Carbon and Hydrogen Isotope Effects in Microbial Methane Production and Anaerobic Oxidation of Methane, **295**, ***Geochimica et Cosmochimica Acta***, 2021, DOI: [10.1016/j.gca.2020.10.018](https://doi.org/10.1016/j.gca.2020.10.018){:target="_blank"} [[GitHub repository](https://github.com/jagropp/EFFs.GCA.2020){:target="_blank"}] 
 
-1. Iron MA., **Gropp J.**\*, Cost-effective density functional theory (DFT) calculations of equilibrium isotopic fractionation in large organic molecules, **21**, 17555, ***Physical Cemistry Chemical Physics***, 2019, DOI: [10.1039/C9CP02975C](https://doi.org/10.1039/C9CP02975C){:target="_blank"}
+1. Iron MA., **Gropp J.**\*, Cost-effective density functional theory (DFT) calculations of equilibrium isotopic fractionation in large organic molecules, **21**, 17555, ***Physical Cemistry Chemical Physics***, 2019, DOI: [10.1039/C9CP02975C](https://doi.org/10.1039/C9CP02975C){:target="_blank"} 
+

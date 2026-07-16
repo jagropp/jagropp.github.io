@@ -1,3 +1,11 @@
+> #### Update (July 2026)
+>
+> Exciting news! 🚀 This fall, I’ll be starting my own lab in the Department of Plant and Environmental Sciences at the Weizmann Institute of Science.
+Building on my postdoctoral research at UC Berkeley, our new group will dive deep into the world of methanogens, exploring the biology, metabolism, and isotopic signatures of microbes that drive greenhouse gas emissions.
+>
+> **I am currently looking for passionate graduate students and postdocs to join the lab! If you are interested in working at the intersection of microbiology and environmental sciences using genetics, modeling, and stable isotope mass spectrometry, I’d be happy to chat.**
+> 
+
 ### About me
 I am a microbiologist, with an interest in understanding the nuts and bolts of microbes that emit greenhouse gases. In the early days of my PhD, I was introduced into the world of methanogens -- microbes that produce methane -- which kickstarted a journey that continues to this day. Methanogens have a key role in shaping Earth's climate throughout its history and are predicted to drive further global warming in the near and distant future as well. Having firm roots in both biology and Earth sciences I aim to deliver new insights on what makes methanogens tick, and how we can identify and learn about their activity across various scales.
 
