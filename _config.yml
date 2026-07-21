@@ -7,11 +7,13 @@ layout            : sidebar
 link_research     : Research
 link_publications : Publications
 link_widgets      : Widgets
+link_contact      : Contact
 
 include:
           - publications.md
           - _images
           - widgets.md
+          - contact.md
 
 # plugins:
 #   - jekyll-feed
