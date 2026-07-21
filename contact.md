@@ -1,7 +1,6 @@
 ## Contact
 
-**Jonathan Gropp**
-Postdoc at the Department of Earth and Planetary Science and Molecular and Cell Biology at UC Berkeley. Incoming PI at the Department of Plant and Environmental Sciences, [Weizmann Institute of Science](https://www.weizmann.ac.il/pages/){:target="_blank"} starting Fall 2026.
+I'm always happy to hear from prospective students, postdocs, and collaborators interested in the biology, metabolism, and isotopic signatures of methanogens and other anaerobic microbes.
 
 <p id="email-contact">Enable JavaScript to reveal my email address, or reach me via <a href="https://www.linkedin.com/in/jonathan-gropp-948a9791/" target="_blank">LinkedIn</a> or <a href="https://scholar.google.com/citations?user=y664qEAAAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
 
@@ -17,8 +16,6 @@ Postdoc at the Department of Earth and Planetary Science and Molecular and Cell 
   el.appendChild(link);
 })();
 </script>
-
-I'm always happy to hear from prospective students, postdocs, and collaborators interested in the biology, metabolism, and isotopic signatures of methanogens and other anaerobic microbes.
 
 ---
 
